@@ -1,4 +1,4 @@
-✨ About Me<br>👋 About Me
+✨ About Me<br>
 🧠 CS Undergrad | Full Stack Developer
 
 🤖 Building AI-powered tools & bots
