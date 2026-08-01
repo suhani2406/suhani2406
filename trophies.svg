@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 190" width="500" height="190" font-family="'Courier New',ui-monospace,monospace">
+
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#1a0b2e"/>
+    <stop offset="100%" stop-color="#2d0f3d"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#ff6ec7"/>
+    <stop offset="100%" stop-color="#a855f7"/>
+  </linearGradient>
+  <clipPath id="rClip"><rect width="495" height="195" rx="16"/></clipPath>
+</defs>
+
+    <style>
+      .fadeUp { opacity:0; animation: fadeUp .6s ease forwards; }
+      @keyframes fadeUp { from{opacity:0; transform:translateY(10px);} to{opacity:1; transform:translateY(0);} }
+      .grow { animation: grow 1.3s cubic-bezier(.2,.8,.3,1) forwards; }
+      @keyframes grow { from{ transform:scaleX(0);} to{ transform:scaleX(1);} }
+      .ring { animation: ringIn 1.4s cubic-bezier(.2,.8,.3,1) forwards; }
+      @keyframes ringIn { from{ stroke-dashoffset: 999; } }
+      .shine { animation: shine 3.5s ease-in-out infinite; }
+      @keyframes shine { 0%{transform:translateX(-140px);} 50%,100%{transform:translateX(360px);} }
+    </style>
+<g clip-path="url(#rClip)">
+<rect width="500" height="190" fill="url(#bg)"/>
+
+<text x="20" y="16" font-size="0" fill="none"></text>
+
+    <g class="fadeUp" transform="translate(20,20)" style="animation-delay:0.4s">
+      <rect width="110" height="150" rx="12" fill="#241436" stroke="#ffd700" stroke-width="1.3"/>
+      <clipPath id="tclip0"><rect width="110" height="150" rx="12"/></clipPath>
+      <g clip-path="url(#tclip0)">
+        <rect class="shine" y="0" width="26" height="160" fill="#ffffff" opacity="0.08" transform="skewX(-20)" style="animation-delay:1.4s"/>
+      </g>
+      <text x="55.0" y="55" text-anchor="middle" font-size="34" fill="#ffd700">★</text>
+      <text x="55.0" y="95" text-anchor="middle" font-size="11" fill="#ffffff" font-weight="bold"><tspan x="55.0" dy="0">Star</tspan><tspan x="55.0" dy="14">Striker</tspan></text>
+      <text x="55.0" y="130" text-anchor="middle" font-size="10" fill="#ffd700">GOLD</text>
+    </g>
+    <g class="fadeUp" transform="translate(140,20)" style="animation-delay:0.5800000000000001s">
+      <rect width="110" height="150" rx="12" fill="#241436" stroke="#c0c0c0" stroke-width="1.3"/>
+      <clipPath id="tclip1"><rect width="110" height="150" rx="12"/></clipPath>
+      <g clip-path="url(#tclip1)">
+        <rect class="shine" y="0" width="26" height="160" fill="#ffffff" opacity="0.08" transform="skewX(-20)" style="animation-delay:1.58s"/>
+      </g>
+      <text x="55.0" y="55" text-anchor="middle" font-size="34" fill="#c0c0c0">◆</text>
+      <text x="55.0" y="95" text-anchor="middle" font-size="11" fill="#ffffff" font-weight="bold"><tspan x="55.0" dy="0">Pull Shark</tspan></text>
+      <text x="55.0" y="130" text-anchor="middle" font-size="10" fill="#c0c0c0">SILVER</text>
+    </g>
+    <g class="fadeUp" transform="translate(260,20)" style="animation-delay:0.76s">
+      <rect width="110" height="150" rx="12" fill="#241436" stroke="#cd7f32" stroke-width="1.3"/>
+      <clipPath id="tclip2"><rect width="110" height="150" rx="12"/></clipPath>
+      <g clip-path="url(#tclip2)">
+        <rect class="shine" y="0" width="26" height="160" fill="#ffffff" opacity="0.08" transform="skewX(-20)" style="animation-delay:1.76s"/>
+      </g>
+      <text x="55.0" y="55" text-anchor="middle" font-size="34" fill="#cd7f32">▲</text>
+      <text x="55.0" y="95" text-anchor="middle" font-size="11" fill="#ffffff" font-weight="bold"><tspan x="55.0" dy="0">Commit</tspan><tspan x="55.0" dy="14">Streak</tspan></text>
+      <text x="55.0" y="130" text-anchor="middle" font-size="10" fill="#cd7f32">BRONZE</text>
+    </g>
+    <g class="fadeUp" transform="translate(380,20)" style="animation-delay:0.9400000000000001s">
+      <rect width="110" height="150" rx="12" fill="#241436" stroke="#ffd700" stroke-width="1.3"/>
+      <clipPath id="tclip3"><rect width="110" height="150" rx="12"/></clipPath>
+      <g clip-path="url(#tclip3)">
+        <rect class="shine" y="0" width="26" height="160" fill="#ffffff" opacity="0.08" transform="skewX(-20)" style="animation-delay:1.94s"/>
+      </g>
+      <text x="55.0" y="55" text-anchor="middle" font-size="34" fill="#ffd700">■</text>
+      <text x="55.0" y="95" text-anchor="middle" font-size="11" fill="#ffffff" font-weight="bold"><tspan x="55.0" dy="0">Repo</tspan><tspan x="55.0" dy="14">Ranger</tspan></text>
+      <text x="55.0" y="130" text-anchor="middle" font-size="10" fill="#ffd700">GOLD</text>
+    </g>
+
+</g>
+<rect x="0.5" y="0.5" width="499" height="189" rx="16" fill="none" stroke="#c084fc" stroke-opacity="0.5"/>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="495" height="195" font-family="'Courier New',ui-monospace,monospace">
+
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#1a0b2e"/>
+    <stop offset="100%" stop-color="#2d0f3d"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#ff6ec7"/>
+    <stop offset="100%" stop-color="#a855f7"/>
+  </linearGradient>
+  <clipPath id="rClip"><rect width="495" height="195" rx="16"/></clipPath>
+</defs>
+
+    <style>
+      .fadeUp { opacity:0; animation: fadeUp .6s ease forwards; }
+      @keyframes fadeUp { from{opacity:0; transform:translateY(10px);} to{opacity:1; transform:translateY(0);} }
+      .grow { animation: grow 1.3s cubic-bezier(.2,.8,.3,1) forwards; }
+      @keyframes grow { from{ transform:scaleX(0);} to{ transform:scaleX(1);} }
+      .ring { animation: ringIn 1.4s cubic-bezier(.2,.8,.3,1) forwards; }
+      @keyframes ringIn { from{ stroke-dashoffset: 999; } }
+      .shine { animation: shine 3.5s ease-in-out infinite; }
+      @keyframes shine { 0%{transform:translateX(-140px);} 50%,100%{transform:translateX(360px);} }
+    </style>
+<g clip-path="url(#rClip)">
+<rect width="495" height="195" fill="url(#bg)"/>
+
+<text x="24" y="34" font-size="17" font-weight="bold" fill="#ffffff">Suhani's GitHub Stats</text>
+<g transform="translate(95,120)">
+  <circle r="54" fill="none" stroke="#3a2350" stroke-width="10"/>
+  <circle class="ring" r="54" fill="none" stroke="url(#accent)" stroke-width="10"
+    stroke-linecap="round" stroke-dasharray="244.3 339.3"
+    transform="rotate(-90)"/>
+  <text text-anchor="middle" dy="6" font-size="20" font-weight="bold" fill="#ffffff">A+</text>
+</g>
+
+    <g class="fadeUp" transform="translate(190,28)" style="animation-delay:0.5s">
+      <text font-size="13" fill="#e6d6ff">Total Stars</text>
+      <text x="270" y="0" text-anchor="end" font-size="13" font-weight="bold" fill="#ff9df0">12</text>
+    </g>
+    <g class="fadeUp" transform="translate(190,62)" style="animation-delay:0.65s">
+      <text font-size="13" fill="#e6d6ff">Total Commits</text>
+      <text x="270" y="0" text-anchor="end" font-size="13" font-weight="bold" fill="#ff9df0">540+</text>
+    </g>
+    <g class="fadeUp" transform="translate(190,96)" style="animation-delay:0.8s">
+      <text font-size="13" fill="#e6d6ff">Total PRs</text>
+      <text x="270" y="0" text-anchor="end" font-size="13" font-weight="bold" fill="#ff9df0">18</text>
+    </g>
+    <g class="fadeUp" transform="translate(190,130)" style="animation-delay:0.95s">
+      <text font-size="13" fill="#e6d6ff">Total Repos</text>
+      <text x="270" y="0" text-anchor="end" font-size="13" font-weight="bold" fill="#ff9df0">26</text>
+    </g>
+
+</g>
+<rect x="0.5" y="0.5" width="494" height="194" rx="16" fill="none" stroke="#c084fc" stroke-opacity="0.5"/>
+</svg>

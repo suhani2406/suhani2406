@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 220" width="495" height="220" font-family="'Courier New',ui-monospace,monospace">
+
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#1a0b2e"/>
+    <stop offset="100%" stop-color="#2d0f3d"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#ff6ec7"/>
+    <stop offset="100%" stop-color="#a855f7"/>
+  </linearGradient>
+  <clipPath id="rClip"><rect width="495" height="195" rx="16"/></clipPath>
+</defs>
+
+    <style>
+      .fadeUp { opacity:0; animation: fadeUp .6s ease forwards; }
+      @keyframes fadeUp { from{opacity:0; transform:translateY(10px);} to{opacity:1; transform:translateY(0);} }
+      .grow { animation: grow 1.3s cubic-bezier(.2,.8,.3,1) forwards; }
+      @keyframes grow { from{ transform:scaleX(0);} to{ transform:scaleX(1);} }
+      .ring { animation: ringIn 1.4s cubic-bezier(.2,.8,.3,1) forwards; }
+      @keyframes ringIn { from{ stroke-dashoffset: 999; } }
+      .shine { animation: shine 3.5s ease-in-out infinite; }
+      @keyframes shine { 0%{transform:translateX(-140px);} 50%,100%{transform:translateX(360px);} }
+    </style>
+<g clip-path="url(#rClip)">
+<rect width="495" height="220" fill="url(#bg)"/>
+
+<text x="24" y="26" font-size="17" font-weight="bold" fill="#ffffff">Most Used Languages</text>
+
+    <g class="fadeUp" transform="translate(24,40)" style="animation-delay:0.4s">
+      <circle cx="5" cy="-4" r="5" fill="#f7df1e"/>
+      <text x="16" y="0" font-size="12.5" fill="#e6d6ff">JavaScript</text>
+      <text x="430" y="0" text-anchor="end" font-size="12" fill="#a78bd6">42%</text>
+    </g>
+    <rect x="24" y="46" width="430" height="8" rx="4" fill="#3a2350"/>
+    <rect class="grow" x="24" y="46" width="181" height="8" rx="4" fill="#f7df1e" style="transform-origin:24px 50px; animation-delay:0.5s"/>
+    
+    <g class="fadeUp" transform="translate(24,70)" style="animation-delay:0.54s">
+      <circle cx="5" cy="-4" r="5" fill="#61dafb"/>
+      <text x="16" y="0" font-size="12.5" fill="#e6d6ff">React</text>
+      <text x="430" y="0" text-anchor="end" font-size="12" fill="#a78bd6">23%</text>
+    </g>
+    <rect x="24" y="76" width="430" height="8" rx="4" fill="#3a2350"/>
+    <rect class="grow" x="24" y="76" width="99" height="8" rx="4" fill="#61dafb" style="transform-origin:24px 80px; animation-delay:0.64s"/>
+    
+    <g class="fadeUp" transform="translate(24,100)" style="animation-delay:0.68s">
+      <circle cx="5" cy="-4" r="5" fill="#8cc84b"/>
+      <text x="16" y="0" font-size="12.5" fill="#e6d6ff">Node.js</text>
+      <text x="430" y="0" text-anchor="end" font-size="12" fill="#a78bd6">15%</text>
+    </g>
+    <rect x="24" y="106" width="430" height="8" rx="4" fill="#3a2350"/>
+    <rect class="grow" x="24" y="106" width="64" height="8" rx="4" fill="#8cc84b" style="transform-origin:24px 110px; animation-delay:0.78s"/>
+    
+    <g class="fadeUp" transform="translate(24,130)" style="animation-delay:0.8200000000000001s">
+      <circle cx="5" cy="-4" r="5" fill="#e34c26"/>
+      <text x="16" y="0" font-size="12.5" fill="#e6d6ff">HTML/CSS</text>
+      <text x="430" y="0" text-anchor="end" font-size="12" fill="#a78bd6">12%</text>
+    </g>
+    <rect x="24" y="136" width="430" height="8" rx="4" fill="#3a2350"/>
+    <rect class="grow" x="24" y="136" width="52" height="8" rx="4" fill="#e34c26" style="transform-origin:24px 140px; animation-delay:0.92s"/>
+    
+    <g class="fadeUp" transform="translate(24,160)" style="animation-delay:0.9600000000000001s">
+      <circle cx="5" cy="-4" r="5" fill="#4479a1"/>
+      <text x="16" y="0" font-size="12.5" fill="#e6d6ff">SQL</text>
+      <text x="430" y="0" text-anchor="end" font-size="12" fill="#a78bd6">8%</text>
+    </g>
+    <rect x="24" y="166" width="430" height="8" rx="4" fill="#3a2350"/>
+    <rect class="grow" x="24" y="166" width="34" height="8" rx="4" fill="#4479a1" style="transform-origin:24px 170px; animation-delay:1.06s"/>
+    
+
+</g>
+<rect x="0.5" y="0.5" width="494" height="219" rx="16" fill="none" stroke="#c084fc" stroke-opacity="0.5"/>
+</svg>
